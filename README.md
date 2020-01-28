@@ -9,3 +9,10 @@ as a Selenum Grid server
 as a test framework
 - Maven
 as a build tool
+- [Allure Framework](https://github.com/allure-framework/allure2)
+as a report tool
+
+## Build
+
+- mvn clean test
+- mvn allure:serve
