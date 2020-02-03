@@ -11,10 +11,12 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class GoogleTest {
 
+  private final AppConfiguration appConfiguration = new AppConfiguration();
+
   @Test(description = "TestCase-1: Simple Search.")
   @Description("User can search simple text")
   public void userCanSearch() {
-    open("https://google.com/");
+    open(appConfiguration.getEntryPoint());
 
     new GooglePage().searchFor("UI Test Automation projects");
     new SearchResultsPage().getResults().shouldHave(sizeGreaterThan(1));
