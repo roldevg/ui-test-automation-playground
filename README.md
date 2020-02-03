@@ -12,6 +12,8 @@ as a test framework
 as a build tool
 - [Allure Framework](https://github.com/allure-framework/allure2)
 as a report tool
+- [TypeSafe Config](https://lightbend.github.io/config/)
+as a configuration tool
 
 ## Local run
 
