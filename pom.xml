@@ -78,7 +78,8 @@
                 <artifactId>allure-maven</artifactId>
                 <version>${allure-maven.version}</version>
                 <configuration>
-                    <reportVersion>2.7.0</reportVersion>
+                    <reportVersion>2.8.0</reportVersion>
+                    <allureDownloadUrl>http://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/%s/allure-commandline-%s.zip</allureDownloadUrl>
                 </configuration>
             </plugin>
         </plugins>
